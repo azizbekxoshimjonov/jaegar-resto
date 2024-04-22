@@ -1,0 +1,126 @@
+@import '../../assets/style/style.scss';
+.payment__container{
+    padding-top: 64px;
+    padding: 24px 24px 0px;
+}
+.payment__title{
+    padding-top: 64px;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+.payment__methode{
+    color: #ABBBC2;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #393C49;
+    margin-top: 24px;
+}
+.payment__methodes{
+    margin-top: 24px;
+    h4{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.payments{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 8px;
+    .methode{
+        width: 101px;
+        height: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #393C49;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .text{
+        color: #ABBBC2;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+.active_methode{
+    width: 101px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    .text{
+        color: white;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+.forms__container{
+    padding-top: 16px;
+    .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        label{
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: white;
+
+        }
+    }
+    .input{
+        width: 100%;
+        height: 48px;
+        background-color:#2D303E;
+        border: none;
+        border-radius: 8px;
+        padding-left: 14px;
+        color: white;
+        font-size: 16px;
+        outline: none;
+
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+    .butons{
+        position: absolute;
+        bottom: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .canel{
+            width: 175px;
+            height: 48px;
+            border: 1px solid $lightPinck;
+            background-color: inherit;
+            color: $lightPinck;
+            border-radius: 8px;
+        }
+        .buy{
+            width: 175px;
+            height: 48px;
+            border: none;
+            background-color: $lightPinck;
+            color:white;
+            border-radius: 8px;
+        }
+    }
+}
